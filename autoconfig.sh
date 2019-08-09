@@ -32,7 +32,7 @@ pacman -S --noconfirm fcitx-im fcitx-configtool fcitx-googlepinyin materia-gtk-t
 #For some problems,we can't use sogoupinyin normally.Sorry for that.
 echo -e 'GTK_IM_MODULE=fcitx\nQT_IM_MODULE=fcitx\nXMODIFIERS=@im=fcitx' >> /etc/environment #configure input
 pacman -S --noconfirm thunderbird tlp tlpui axel lolcat gconf aurman zsh
-pacman -S --noconfirm cowsay htop vim curl git
+pacman -S --noconfirm cowsay htop vim curl git yay
 pacman -Rs --noconfirm hexchat #I don't think it's useful. >_<
 pacman -S --noconfirm firefox-i18n-zh-cn thunderbird-i18n-zh-cn
 pacman -S --noconfirm google-chrome wps-office netease-cloud-music #emmm,if you don't like,just add "#".
