@@ -3,7 +3,7 @@
 
 用法：
 1.wget https://github.com/Alexander-Huang/Manjaro-configure-cn/blob/master/autoconfig.sh
-2.su
+2.su 
 3.sh autoconfig.sh
 
 酷安id：Alexande，PYPY！
