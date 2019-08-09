@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 #made_by_alexander
 
 #check internet connection
