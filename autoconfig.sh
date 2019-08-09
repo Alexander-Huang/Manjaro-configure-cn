@@ -19,7 +19,7 @@ else
 	exit
 fi
 
-echo -e "Hello, ${y_name} \nThis shell file is used to configure Manjaro 18.\nLet's go step by step."
+echo -e "Hello, ${y_name} \nThis shell script is used to configure Manjaro 18.\nLet's go step by step."
 echo "Please select mirrors.tuna.tsinghua.edu.cn"
 pacman-mirrors -i -c China -m rank
 echo -e "\n[archlinuxcn]\nSigLevel = TrustAll\nServer = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/\$arch\n\n[antergos]\nSigLevel = TrustAll\nServer = https://mirrors.tuna.tsinghua.edu.cn/antergos/\$repo/\$arch\n"|sudo tee -a /etc/pacman.conf  #add reponsitory
