@@ -6,4 +6,6 @@
 2.su  
 3.sh autoconfig.sh  
 
-酷安id：Alexande，PYPY！
+酷安id：Alexande，PYPY！  
+相关文章：  
+https://github.com/Bit0r/CSAPP 安装manjaro教程
