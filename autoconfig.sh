@@ -39,9 +39,8 @@ pacman -S --noconfirm google-chrome wps-office netease-cloud-music #emmm,if you 
 pacman --noconfirm -Syyu
 sudo tlp start
 sudo tlp-stat
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" #install oh-my-zsh
-echo "edit ~/.zshrc for more themes!"
 echo "Now I'll bring you something you want." #emmm,guess what?
 axel -o /tmp/ https://github.com/qingshuisiyuan/electron-ssr-backup/releases/download/v0.2.6/electron-ssr-0.2.6.pacman
 pacman -U --noconfirm /tmp/electron-ssr-0.2.6.pacman  
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" #install oh-my-zsh
+echo "edit ~/.zshrc for more themes!"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" #install oh-my-zsh 
