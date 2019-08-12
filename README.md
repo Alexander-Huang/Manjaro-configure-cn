@@ -3,7 +3,7 @@
 
 用法：  
 1.wget https://github.com/Alexander-Huang/Manjaro-configure-cn/archive/master.zip  
-2.unzip matster.zip  
+2.unzip master.zip  
 3.sudo sh ~/Manjaro-configure-cn-master/autoconfig.sh  
 
 酷安id：Alexande，PYPY！  
