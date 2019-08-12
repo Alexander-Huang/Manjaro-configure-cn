@@ -9,14 +9,10 @@ else
     	echo "Can't connect to internet."
     	exit
 fi
-#check root
-ROOT_UID=0
-if [ "$UID" -eq "$ROOT_UID" ]
-then
-	screenfetch
-else
-	echo "Please run it by root,not sudo."
-	exit
+#ask for root
+user=`whoami`
+if [ "$user" != "root" ]; then
+        echo "You Password" | su root
 fi
 
 echo -e "Hello, ${y_name} \nThis shell script is used to configure Manjaro 18.\nLet's go step by step."
