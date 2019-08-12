@@ -4,7 +4,7 @@
 用法：  
 1.wget https://github.com/Alexander-Huang/Manjaro-configure-cn/archive/master.zip  
 2.unzip matster.zip  
-3.bash ~/Manjaro-configure-cn-master/autoconfig.sh  
+3.sudo sh ~/Manjaro-configure-cn-master/autoconfig.sh  
 
 酷安id：Alexande，PYPY！  
 相关文章：  
